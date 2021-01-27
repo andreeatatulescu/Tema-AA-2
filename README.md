@@ -14,7 +14,7 @@ First of all : ./setup.sh
 
 Run checker: python3.7 ./checker.py java <task1> <task2> <task3> <bonus>
 
-## Task1
+### Task1
 
 This is based on K-coloring problem, where the number of families is number of nodes,
 number of relationships between families is the number of edges and the spies are the
@@ -41,7 +41,7 @@ give an interpretation: for this task the variables > 0 were the spies assigned
 and we have to see what spy is it (the K-th spy) and write down our solution in
 the .out file.
 
-## Task2
+### Task2
 
 Based on Clique Problem, very similar to the previous one, the difficulty comes
 just when we talk about possible duplicate clauses and the fact that we used 
@@ -67,7 +67,7 @@ extended family.
 This time the interpretation is that all the variables > 0 form an extended
 family and we have to see which family they belong to.
 
-## Task3
+### Task3
 
 The K-Vertex cover is somehow the complement of Task2, so all we have to do is
 to generate the complement of our graph (in my case the complemnt of the 
@@ -79,7 +79,7 @@ complementary, in order to interpretate the Oracle's answer we have to
 write down in .out file those families which do not appear in the answer 
 from task2.
 
-## Bonus
+### Bonus
 
 From what I have read about Weigthed Partial Max-SAT, there are 2 types of clauses,
 hard ones and fot ones. The weight for the hard ones is sum of weights from softs + 1,
