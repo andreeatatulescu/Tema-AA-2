@@ -61,7 +61,7 @@ extended family.
 * A family can not be on 2 position in the same extended family at the same time.
 (combination on columns)
 
-* Families which do not get alonng cannot belongto the same extended family
+* Families which do not get along cannot belong to the same extended family
 at the same time.
 (this is why we used non-edges)
 
